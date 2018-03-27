@@ -1,0 +1,22 @@
+{
+  "name": "lambda-send-attachment",
+  "version": "1.0.0",
+  "description": "An AWS Lambda function that sends attachments hosted on S3 by email with SES",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xoor-io/lambda-send-attachment.git"
+  },
+  "author": "XOOR (hello@xoor.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xoor-io/lambda-send-attachment/issues"
+  },
+  "homepage": "https://github.com/xoor-io/lambda-send-attachment#readme",
+  "dependencies": {
+    "nodemailer": "^4.6.3"
+  }
+}
